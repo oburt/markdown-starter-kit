@@ -1,11 +1,8 @@
-Lorem ipsum dolor sit amet
-==========================
-###### & & & ######
-## 7 August 2013 ##
-###### & & & ######
+Lorem ipsum
+===========
+## Dolor sit amet
 
 > Maecenas tortor lacus, condimentum fermentum sem facilisis, facilisis volutpat mi. Mauris eleifend, massa non pretium feugiat, odio purus consequat dolor, sed pellentesque risus mi a nunc. Duis malesuada congue quam. Nunc varius dapibus magna vel laoreet. Morbi a feugiat sem. Aliquam nisi risus, rhoncus quis purus at, dapibus fermentum nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-> <cite>"de Finibus Bonorum et Malorum" by Cicero</cite>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna odio, dignissim sed ipsum non, pulvinar tempus ligula. Donec semper nisl nulla, a volutpat nisl sollicitudin at. Ut luctus massa eu lorem feugiat varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras pharetra viverra tortor non tincidunt. Proin et lorem massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel feugiat orci. Nullam ornare luctus tincidunt. Praesent turpis enim, imperdiet at orci ut, lobortis vestibulum metus. Etiam tincidunt enim vitae volutpat dapibus. Nullam sodales id risus in facilisis. Ut non lectus lacus. Aliquam luctus quis lacus sit amet dictum. Cras tincidunt orci at orci cursus convallis.
 
@@ -20,7 +17,7 @@ Mauris mauris enim, bibendum a consequat ac, vestibulum a mauris. Pellentesque p
 ##### Nam magna diam
 Sed posuere augue a est dignissim, ac laoreet magna sagittis. Proin gravida imperdiet ante, nec ornare leo aliquam a. Cras feugiat sollicitudin turpis, sed euismod mi vulputate vel. In lobortis commodo enim quis ornare. Aliquam tincidunt sapien turpis, vel imperdiet lorem molestie in. Ut quis suscipit metus, eu facilisis orci. Aliquet eu condimentum quis, fermentum a risus.
 
-```php
+    {% highlight php startinline %}
     function bogosort($l) {
         while (!in_order($l))
             shuffle($l);
@@ -33,7 +30,7 @@ Sed posuere augue a est dignissim, ac laoreet magna sagittis. Proin gravida impe
                 return FALSE;
         return TRUE;
     }
-```
+    {% endhighlight %}
 
 Sed ut semper nisl. Nulla fringilla erat dolor, a pharetra libero placerat eget. Fusce luctus dui eget odio adipiscing, vel pellentesque ante tincidunt. Proin eu justo nec urna accumsan sollicitudin. Sed vitae quam aliquam arcu tristique posuere. Morbi sit amet ipsum vel mi fermentum imperdiet. Fusce dignissim dolor nec diam faucibus, eu vehicula sapien egestas. 
 
